@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+   --cor-principal: rgb(221, 47, 192);
+   --cor-secundaria: #f009d177;
+   --cor-destaque: #c82bfc33;
+
+}
+
+body {
+   font-family: 'Playfair Display', sans-serif;
+   color: var(--cor-principal);
+   background-color: #f8f9fa;
+}
+
+h1,h2,h5 {
+   color: var(--cor-secundaria);
+   font-weight: 700;
+}
+
+.lead,.btn-link:hover {
+   color: var(--cor-principal);
+}
+
+a:hover {
+   color: var(--cor-destaque);
+}
